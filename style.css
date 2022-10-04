@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css?family=Plus Jakarta Sans");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.div-last {
+  overflow: hidden;
+}
+html {
+  overflow-x: hidden;
+}
+#hero {
+  position: absolute;
+  justify-content: space-around;
+  overflow: hidden;
+  left: 61%;
+  top: -11%;
+
+  overflow: hidden;
+}
+
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 29px;
+}
+.div1 button {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  background: #666ca3;
+  border-radius: 28px;
+  z-index: 1;
+}
+.div2 {
+  margin-left: 135px;
+  /* margin-right: 135px; */
+  margin-top: 178px;
+  /* text-align: center; */
+  width: 457px;
+  height: 143px;
+}
+button {
+  border-radius: 28px;
+  width: 167px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.div1 h2 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  color: #13183f;
+  font-style: normal;
+}
+.div2 h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 71px;
+  color: #13183f;
+}
+.div2 p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+  margin-top: 29px;
+  margin-bottom: 40px;
+}
+.div2 button {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 1440px;
+  height: 888px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 950px;
+}
+.container img {
+  position: absolute;
+  top: -3.75 rem;
+}
+#card2 img {
+  left: 575px;
+  top: 0px;
+}
+.card {
+  border: 1px solid red;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  margin: 24px 15px 80px 15px;
+}
+.card h3 {
+  margin-top: 64px;
+  padding-left: 32px;
+  margin-bottom: 24px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #13183f;
+}
+.card p {
+  padding-left: 32px;
+
+  margin-bottom: 24px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+}
+.card a {
+  padding-left: 32px;
+  /* margin-bottom: 40px; */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  text-decoration: none;
+}
+#card1 h3 {
+  width: 286px;
+  height: 120px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  padding: 0px 32px 138px 32px;
+}
+#card1 {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 15px;
+}
+#card2 {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 15px;
+}
+#card2 h3 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #13183f;
+  width: 121px;
+  height: 30px;
+}
+#card2 p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+  width: 286px;
+  height: 112px;
+}
+#card2 a {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #f74780;
+}
+#card3 img {
+  top: 0px;
+  right: 330px;
+}
+#card3 p {
+  width: 286px;
+  height: 84px;
+  margin-bottom: 50px;
+}
+#card4 img {
+  position: absolute;
+  top: 27.7em;
+  left: 6rem;
+}
+#card4 p {
+  margin-bottom: 52px;
+}
+#card4 a {
+  margin-bottom: 40px;
+}
+#card5 p {
+  margin-bottom: 24px;
+  width: 287px;
+  height: 112px;
+}
+#card5 img {
+  top: 27.7em;
+  left: 575px;
+}
+#card6 p {
+  width: 286px;
+  height: 112px;
+}
+#card6 img {
+  top: 27.7em;
+  right: 330px;
+}
+
+.div-last {
+  background: #13183f;
+  padding-top: 32px;
+  padding-bottom: 20px;
+  margin-top: -360px;
+  height: 120px;
+}
+.div-last div {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+.div-last h2 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  color: #fff;
+  font-style: normal;
+}
+.div-last button {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border-radius: 28px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  border: none;
+}
+
+@media all and (max-width: 769px) {
+  .header-div {
+    width: 768px;
+    height: 641px;
+  }
+
+  .div1 h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .div1 button {
+    width: 140px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .div-last button {
+    width: 140px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .div-last h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .div2 {
+    width: 398px;
+    height: 284px;
+  }
+  .div2 h2 {
+    height: 101px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header-div p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  p {
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .header-div img {
+    width: 640.71px;
+    height: 640px;
+  }
+  .container {
+    width: 768px;
+    height: 999px;
+  }
+  .card {
+    width: 339px;
+    height: 259px;
+    margin: 0;
+  }
+
+  #card1 h3 {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 56px 21px 139px 32px;
+    margin: 0%;
+  }
+  #card2 h3 {
+    margin-top: 56px;
+    padding-left: 32px;
+    margin-bottom: 0px;
+  }
+  #card2 p {
+    margin: 0%;
+    padding-top: 16px;
+    /* padding-right: 22px; */
+    height: 78px;
+  }
+  #card2 a {
+    width: 104px;
+    height: 28px;
+    top: -150px;
+  }
+
+  #card2 h3,
+  #card3 h3,
+  #card4 h3,
+  #card5 h3,
+  #card6 h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #card2 p,
+  #card3 p,
+  #card4 p,
+  #card5 p,
+  #card6 p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .div-last {
+    width: 768px;
+    height: 120px;
+  }
+}
